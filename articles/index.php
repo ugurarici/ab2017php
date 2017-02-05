@@ -2,6 +2,12 @@
 
 require_once "init.php";
 
+$articles = Article::all();
+
+// $articleObj = new Article;
+// $articles = $articleObj->getAll();
+
+
 ?>
 <?php if(isset($_SESSION['error'])): ?>
 	

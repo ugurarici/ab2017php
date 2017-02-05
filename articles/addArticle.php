@@ -5,6 +5,16 @@ require_once "init.php";
 use Respect\Validation\Validator;
 use Respect\Validation\Exceptions\NestedValidationException;
 
+// $article = new Article;
+// $article->save();
+// // $article->title = "Başlık";
+// // $article->content = "İçerik";
+
+// die(var_dump($article));
+
+// die();
+
+//////////////////
 $errors = array();
 
 $title = "";
@@ -27,6 +37,14 @@ if(isset($_POST['title']) && isset($_POST['content'])){
 	}
 
 	if(count($errors)===0){
+		
+		// $article = new Article;
+		// $article->title = $_POST['title'];
+		// $article->content = $_POST['content'];
+		// $article->save();
+
+
+
 		$newPost = array(
 			"title" => trim($_POST['title']),
 			"content" => trim($_POST['content']),
