@@ -15,7 +15,7 @@ if(isset($_POST['title']) AND isset($_POST['content'])) {
 	$post->content = $_POST['content'];
 	$post->save();
 
-	header("Location: detail.php?id=".$post->id);
+	header("Location: /?a=detail&id=".$post->id);
 	die();
 }
 ?>
