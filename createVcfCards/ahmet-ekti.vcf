@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+REV:2017-02-05T23:10:25Z
+N;CHARSET=utf-8:Ekti;Ahmet;;;
+FN;CHARSET=utf-8:Ahmet Ekti
+ORG;CHARSET=utf-8:Muğla Sıtkı Koçman Üniversitesi
+TITLE;CHARSET=utf-8:Öğrenci
+NOTE;CHARSET=utf-8:AB2017 Modern Web ve PHP Sınıfından. Muğla Üniver
+ sitesi(Muğla) Bilişim Sistemleri Mühendisliği öğrencisi.
+EMAIL;INTERNET:ahmetekti96@gmail.com
+TEL;PREF;HOME:+905059775440
+END:VCARD
